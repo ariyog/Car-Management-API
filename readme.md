@@ -11,7 +11,7 @@ password : 123456
 ## Endpoint
 ### (POST) Login Superadmin
 > http://localhost:5000/v1/api/login
-> Example request
+* Example request
 
 {
     "email": "ariyogi@superadmin.com",
