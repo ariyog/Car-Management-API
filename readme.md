@@ -12,8 +12,7 @@ password : 123456
 ### (POST) Login Superadmin
 > http://localhost:5000/v1/api/login
 * Example request
-
-{
+>{
     "email": "ariyogi@superadmin.com",
     "password": "123456"
 }
@@ -21,7 +20,7 @@ password : 123456
 ### (POST) Login Member
 > http://localhost:5000/v1/api/login
 * Example Request
-{
+>{
     "email": "member1@gmail.com",
     "password": "123456"
 }
