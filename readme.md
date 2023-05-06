@@ -20,7 +20,7 @@ password : 123456
 
 ### (POST) Login Member
 > http://localhost:5000/v1/api/login
-> Example Request
+* Example Request
 {
     "email": "member1@gmail.com",
     "password": "123456"
@@ -28,7 +28,7 @@ password : 123456
 
 ### (POST) Login Admin
 > http://localhost:5000/v1/api/login
-> Example Request
+* Example Request
 {
     "email": "admin1@gmail.com",
     "password": "123456"
@@ -36,15 +36,15 @@ password : 123456
 
 ### (GET) Get User Data
 > http://localhost:5000/v1/api/users
-> need barier token auth
+* need barier token auth
 
 ### Logout
 > http://localhost:5000/v1/api/logout
-> need barier token auth
+* need barier token auth
 
 ### (GET) Get All Data Cars
 > http://localhost:5000/v1/api/cars
-> Example Request
+* Example Request
 curl --location --request GET 'http://localhost:5000/v1/api/cars' \
 --data-raw '{
     "email": "ariyogi@superadmin.com",
@@ -53,7 +53,7 @@ curl --location --request GET 'http://localhost:5000/v1/api/cars' \
 
 ### (GET) Get Car by ID
 > http://localhost:5000/v1/api/car/1
-> Example Request
+* Example Request
 curl --location --request GET 'http://localhost:5000/v1/api/car/1' \
 --data-raw '{
     "email": "ariyogi@superadmin.com",
@@ -62,7 +62,7 @@ curl --location --request GET 'http://localhost:5000/v1/api/car/1' \
 
 ### (PUT) Delete Car
 > http://localhost:5000/v1/api/car/1
-> Example Request
+* Example Request
 curl --location --request PUT 'http://localhost:5000/v1/api/car/8' \
 --data-raw '{
     "email": "ariyogi@superadmin.com",
@@ -71,7 +71,7 @@ curl --location --request PUT 'http://localhost:5000/v1/api/car/8' \
 
 ### (PUT) Update Car
 > http://localhost:5000/v1/api/updatecar/1
-> Example Request
+* Example Request
 curl --location --request PUT 'http://localhost:5000/v1/api/updatecar/3' \
 --data '{
     "nama":"jazz update2",
@@ -80,7 +80,7 @@ curl --location --request PUT 'http://localhost:5000/v1/api/updatecar/3' \
 
 ### (POST) Create Car
 > http://localhost:5000/v1/api/createcar
-> Example Request
+* Example Request
 curl --location 'http://localhost:5000/v1/api/createcar' \
 --header 'nama: jazz2' \
 --header 'harga: 15000' \
@@ -91,7 +91,7 @@ curl --location 'http://localhost:5000/v1/api/createcar' \
 
 ### (GET) Deleted Car
 > http://localhost:5000/v1/api/deletedcar
-> Example Request
+* Example Request
 curl --location --request GET 'http://localhost:5000/v1/api/deletedcar' \
 --data-raw '{
     "email": "ariyogi@superadmin.com",
